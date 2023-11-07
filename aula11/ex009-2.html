@@ -20,20 +20,16 @@
     <script>
 
         function clicar(){
-
             var p = document.getElementById('pais').value
             var res = document.getElementById('res')
 
-            res.innerHTML = `<p>Seu país é ${p}</p>`
-
-            
+            res.innerHTML = `<p>Seu pais é ${p}</p>`
 
             if(p === 'Brasil'){
-                res.innerHTML += '<p>Você é brasileiro</p>'
+                res.innerHTML += 'Você é brasileiro'
             } else{
-                res.innerHTML += '<p>Você é estrangeiro</p>'
+                res.innerHTML += 'Você é estrangeiro'
             }
-
         }
         
         
