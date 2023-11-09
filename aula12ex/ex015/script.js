@@ -39,7 +39,7 @@ function verificar(){
             }
        }
 
-
+       res.style.textAlign = 'center'
        res.innerHTML = `Você é ${genero} com ${idade} anos`
        res.appendChild(img)
     }
