@@ -19,8 +19,20 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
 
+input{
+    margin: 20px 0px 20px 0px;
+}
+
 footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#res{
+    text-align: center;
+}
+
+img{
+    margin: auto;
 }
