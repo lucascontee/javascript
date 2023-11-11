@@ -25,6 +25,6 @@ footer{
     font-style: italic;
 }
 
-label, input{
-    margin-bottom: 20px;
+input, label{
+    margin: 20px 0px 20px 0px;
 }
